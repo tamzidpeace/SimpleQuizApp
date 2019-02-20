@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2874B2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/question"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:text="@string/q1"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/true_btn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="150dp"
+        android:background="#21A653"
+        android:text="true" />
+
+    <Button
+        android:id="@+id/false_btn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="185dp"
+        android:layout_marginBottom="150dp"
+        android:background="#994940"
+        android:text="false" />
+
+    <ProgressBar
+        android:id="@+id/progress_horizontal"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:progress="0"
+        android:layout_below="@id/question" />
+
+</RelativeLayout>

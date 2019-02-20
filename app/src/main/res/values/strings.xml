@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quiz Competition</string>
+
+    <string name="q1">Dhaka is the capital of Bangladesh.</string>
+    <string name="a1"></string>
+
+    <string name="q2">Kabul is the capital of Armenia.</string>
+    <string name="a2"></string>
+
+    <string name="q3">Beijing is the capital of china.</string>
+    <string name="a3"></string>
+
+    <string name="q4">Mombai is the capital of India.</string>
+    <string name="a4"></string>
+
+    <string name="q5">Jordan is the capital of Amman.</string>
+    <string name="a5"></string>
+
+    <string name="offsetScore">Your score is: </string>
+
+</resources>
